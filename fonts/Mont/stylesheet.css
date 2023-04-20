@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('Mont-HeavyItalic.eot');
+    src: local('Mont Heavy Italic'), local('Mont-HeavyItalic'),
+        url('Mont-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Mont-HeavyItalic.woff2') format('woff2'),
+        url('Mont-HeavyItalic.woff') format('woff'),
+        url('Mont-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+	text-transform: capitalize;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('Mont-SemiBold.eot');
+    src: local('Mont SemiBold'), local('Mont-SemiBold'),
+        url('Mont-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Mont-SemiBold.woff2') format('woff2'),
+        url('Mont-SemiBold.woff') format('woff'),
+        url('Mont-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

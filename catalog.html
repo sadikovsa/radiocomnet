@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Radiocom
+    </title>
+    <meta name="description" content="Radiocom">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/dist/preview.jpg">
+    <link rel="preload" href="css/main.min.css" as="style">
+    <link rel="preload" href="js/app.min.js" as="script">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <a href="./" class="header__logo">
+                <img src="./images/logo.png" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="./" class="active">Главная</a></li>
+                    <li><a href="./catalog.html">Каталог</a></li>
+                    <li><a href="./about.html">О компании</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                </ul>
+                <ul class="social mobile">
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </nav>
+            <div class="header__right">
+                <ul class="header__contacts">
+                    <li><a href="tel:++998 (90) 123-45-67">+998 (90) 123-45-67</a></li>
+                    <li><a href="tel:++998 (90) 123-45-67">+998 (90) 123-45-67</a></li>
+                </ul>
+                <div class="header__lang">
+                    <p class="header__lang-active">Ru</p>
+                    <ul>
+                        <li><a href="#">Рус</a></li>
+                        <li><a href="#">Eng</a></li>
+                        <li><a href="#">Uzb</a></li>
+                    </ul>
+                </div>
+                
+                <div class="burger mobile">
+                    <input type="checkbox" id="burgerBtn" class="burger-checkbox">
+                    <label for="burgerBtn">
+                        <div class="hamburger">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                            <span class="bar bar4"></span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="hero" id="hero">
+    <div class="hero__slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero__item" style="background-image: url('./images/hero-bg.png');">
+                    <div class="container">
+                        <h1 class="hero__title">ТЕКСТ ЗАГОЛОВКА</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide hero__item" style="background-image: url('./images/hero-bg.png');">
+                    <div class="container">
+                        <h1 class="hero__title">ТЕКСТ ЗАГОЛОВКА</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide hero__item" style="background-image: url('./images/hero-bg.png');">
+                    <div class="container">
+                        <h1 class="hero__title">ТЕКСТ ЗАГОЛОВКА</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider__controls">
+            <button type="button" class="slider__button slider__button-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+            <button type="button" class="slider__button slider__button-next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <ul class="slider__pagination pagination">
+
+        </ul>
+    </div>
+</section>
+    <section class="catalog">
+    <div class="container">
+        <h2 class="catalog__title">Каталог продукции</h2>
+        <div class="catalog__wrapper">
+            <aside class="catalog__sidebar" data-aos="fade-right">
+                <a href="#" class="catalog__brands">
+                    <img src="./images/catalog/brand-1.png" alt="brand">
+                </a>
+                <a href="#" class="catalog__brands">
+                    <img src="./images/catalog/brand-2.png" alt="brand">
+                </a>
+                <a href="#" class="catalog__brands">
+                    <img src="./images/catalog/brand-3.png" alt="brand">
+                </a>
+                <a href="#" class="catalog__brands">
+                    <img src="./images/catalog/brand-4.png" alt="brand">
+                </a>
+            </aside>
+            <div class="catalog__right">
+                <div class="catalog__items" data-aos="fade-left">
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                    <a href="./product.html" class="swiper-slide catalog__item">
+                        <span class="catalog__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </span>
+                        <span class="catalog__brand">Motorola</span>
+                        <span class="catalog__price">1 100 000 сум</span>
+                        <button class="catalog__btn catalog__btn-blue">Подробнее <i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                </div>
+                <ul class="pagination">
+                    <li><span aria-current="page" class="page-numbers current">1</span></li>
+                    <li><a class="page-numbers" href="#">2</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+  </main>
+  
+  <footer class="footer">
+            
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <h2 class="footer__title">следите за нами:</h2>
+                <ul class="socials">
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="social"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+                <ul class="footer__contacts">
+                    <li>Узбекистан, г.Ташкент, ул.Ойбек</li>
+                    <li>Связаться с нами: <a href="mailto:sales@gmail.com">sales@gmail.com</a></li>
+                    <li>Отдел поддержки: <a href="mailto:support@radiocomnet.com">support@radiocomnet.com</a></li>
+                </ul>
+                <p class="copyright">&copy;<a href="">BnC</a> 2023, Все права защищены</p>
+            </div>
+            <div class="footer__right">
+                <h2 class="footer__title">Наши контакты</h2>
+                <ul class="footer__contacts">
+                    <li><a href="tel:++998 (90) 123-45-67">+998 (90) 123-45-67</a></li>
+                    <li><a href="tel:++998 (90) 123-45-67">+998 (90) 123-45-67</a></li>
+                </ul>
+                <div class="map" id="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A28f73c1e164368e7a58b2b2218a86884e3dcd25d930b7006cfc4f5b9a64bc35a&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal" id="services-1">
+    <button class="modal__close" type="button" aria-label="close modal">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <h2 class="modal__title">Trade In</h2>
+    <div class="modal__wrapper">
+        <p><strong><i>Услуга TRADE-IN</i></strong> – на помощь быстрому и удобному обмену старой рации на новую! Компания Radiocom предоставляет услугу trade in всем обладателям устаревших раций.</p>
+        <p></p>
+        <p>Если вы желаете приобрести новую модель рации и избавиться от нынешней старой, то вам нужно, лишь прийти в наш офис и наши специалисты обменяют Вашу рацию на более новую модель.</p>
+        <a href="#" class="modal__btn">Узнать подробнее</a>
+    </div>
+</div>
+<div class="modal" id="order">
+    <button class="modal__close" type="button" aria-label="close modal">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <h2 class="modal__title">Trade In</h2>
+    <div class="modal__wrapper">           
+        <form action="#" class="modal__form">
+            <h3 class="modal__form__title">Отправьте свои личные данные и наш менеджер свяжется с Вами </h3>
+            <label for="name">
+                <input type="text" name="name" id="name" class="modal__form__field" placeholder="Имя">
+            </label>
+            <label for="phone">
+                <input type="tel" name="phone" id="phone" class="modal__form__field phone" placeholder="Номер телефона">
+            </label>
+            <label for="message">
+                <input type="text" name="message" id="message" class="modal__form__field" placeholder="Комментарий">
+            </label>
+            <input type="submit" class="modal__form__btn" value="Отправить">
+        </form>
+    </div>
+</div>
+<div class="backdrop"></div>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
